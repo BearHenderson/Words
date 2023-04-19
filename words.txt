@@ -1,0 +1,7 @@
+Name: < Clare "Bear" Henderson >
+Stack: < JavaScript/MERN >
+GitHub Repo link: < https://github.com/BearHenderson/Words.git >
+Project name: < Finding the right words >
+Project description: < A quote finder. Just bought that blank card, feeling low, want to inspire a friend, or maybe just share words that have meaning to you, this will be the place. >
+MVP (Minimum Viable Product) features: < Github, Crud, Login and registration, to add, edit, delete. Validations with errors. CSS with Bootstrap. >
+Bonus feature(s): < View without login, quote randomizer, integrate an API >

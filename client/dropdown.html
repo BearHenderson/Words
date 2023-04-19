@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dropdown Box </title>
+</head>
+<body>
+    <h1>Dropdown Box </h1>
+    <label for="myDropdown">I am looking for:</label>
+    <select id="myDropdown">
+    <option value="">--Select--</option>
+    <option value="Motivational">Motivational</option>
+    <option value="Sympathetic">Sympathetic</option>
+    <option value="Romantic">Romantic</option>
+    <option value="Historical">Historical</option>
+    <option value="Funny">Funny</option>
+    <option value="Inspirational">Inspirational</option>
+    <option value="Lyric">Lyric</option>
+    </select>
+    <p id="result"></p>
+    <script>
+    var dropdown = document.findByType("myDropdown");
+    dropdown.addEventListener("change", function() {
+    var selectedValue = dropdown.value;
+    var result = document.findByType("result");
+    result.textContent = "Selected type: " + selectedValue;
+    });
+    </script>
+</body>
+</html>
